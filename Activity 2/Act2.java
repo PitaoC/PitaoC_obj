@@ -1,13 +1,17 @@
-import java.lang.Math;
-
-public class Act2{
-    static double Fnumber = 4;
-    static double Snumber;
-    public static void main(String[] args){
-        System.out.println(Fnumber);
-
-        Snumber = Math.pow(Fnumber,2);
-        System.out.println("Squired = "+Snumber);
-
+public class Act2 {
+  public static void main(String[] args) {
+      int number = 0;
+    if (number == 0) {
+        System.out.println("Enter the number you showed: " + number);
+        System.out.println("Zero");
+    } else if (number > 0) {
+        int square = number * number;
+        System.out.println("Enter the number you showed: " + number);
+        System.out.println("Square = " + square);
+    } else {
+    int cube = number * number * number;
+        System.out.println("Enter the number you showed: " + number);
+        System.out.println("Cube = " + cube);
     }
+}
 }
